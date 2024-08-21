@@ -1,0 +1,32 @@
+.card{
+    padding-top: 20px;
+    background-image: url('https://wallpapers.com/images/hd/fifa-background-tqq9pxlhzeue8u6w.jpg');
+    box-shadow:  7px 7px 14px #18417a,
+                -7px -7px 14px #18417a;
+    transition: transform .1s;
+}
+.card:hover{
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform:scale(1.4);
+  z-index: 20;
+  border:30px;
+  border-color: rgb(255, 255, 255);
+
+}
+.img{
+  width: 280px;
+  height: 340px;
+}
+.imgFlag{
+  width:20px;
+}
+.cardBody{
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow:   7px 7px 14px #18417a,
+                7px 7px 14px #18417a;
+}
+.cardText{
+  display: flex;
+  justify-content: space-between;
+}
